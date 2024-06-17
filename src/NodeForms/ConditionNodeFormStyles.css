@@ -1,0 +1,13 @@
+.contition-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px;
+    border-color: #666666;
+}
+
+.conditional-statements {
+    font-size: large;
+    font-weight: 900;
+    margin-bottom: 20px;
+}

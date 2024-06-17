@@ -1,0 +1,72 @@
+.drawer-content {
+    padding: 0px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+  }
+  
+  .button-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .icon-button {
+    margin-bottom: 5px;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .section-header {
+    font-size: medium;
+  }
+
+  .button-label {
+    font-size: 13px;
+    flex: auto;
+  }
+
+  .info-icon {
+    margin-left: 5px;
+  }
+
+  .label-holder {
+    display: flex;
+  }
+
+  .form-content {
+    margin-top: 20px;
+  }
+
+  .form-field {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .radio-group {
+    margin-bottom: 20px;
+  }
+
+  .condition-type-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  
+  .condition-type-button {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+  }

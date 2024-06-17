@@ -1,0 +1,73 @@
+/* styles.css */
+.modal {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black;
+  }
+  
+  .modal-content {
+    background: rgb(206, 206, 206);
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 'rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px',
+  }
+  
+  .modal-content input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  button {
+    margin: 2px;
+    border-radius: 20px;
+  }
+
+  .type-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .type-button-items {
+    font-size: xx-small;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  .type-info {
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+  .type-form-subtitles {
+    font-size: 15px;
+  }
+
+  .trigger-description {
+    border: solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(239, 239, 239);
+    margin-top: 20px;
+    font-size: x-small;
+    font-weight: 600;
+  }
+
+  /* FRAME NODES */ 
+  .frame-node {
+    padding: 10;
+    border: '1px dashed #666666';
+    border-width: 2px;
+    border-radius: '5px';
+    width: '40px';
+    height: '40px';
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center', 
+  }
+  
